@@ -13,7 +13,7 @@ testV2Arr: .word 2 -3   5 -8 -6  18 -8   3 3 -64
 noTest:	   .word 10
 passTest:  .word 0
 totalTest: .word 0
-opList:	   .byte '/' '*' '-' '+'
+opList:	   .byte 
 testFlag:  .word 0x0
 as_msg: .asciiz "(%d %c %d) \t normal => %d \t logical => %d \t [%s]\n"
 mul_msg: .asciiz "(%d %c %d) \t normal => HI:%d LO:%d \t\ logical => HI:%d LO:%d \t [%s]\n"
